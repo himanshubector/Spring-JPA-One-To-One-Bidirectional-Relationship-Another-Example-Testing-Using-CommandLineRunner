@@ -25,6 +25,6 @@ public class Laptop
 
     @OneToOne
     @JoinColumn(name = "employee_id")
-    private Employee employee;   // This means Foreign key will be created only in the Laptop table
+    private Employee employee;   // This means Foreign key will be created only in the Laptop table i.e. extra column 'employee_id' will be created in the Laptop table 
 }
 
